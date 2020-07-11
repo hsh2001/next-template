@@ -1,4 +1,5 @@
 import '../styles/reset.scss';
+import Layout from '../components/Layout';
 
 export default ({
   Component,
@@ -7,5 +8,9 @@ export default ({
   Component: React.FC;
   pageProps: object;
 }) => {
-  return <Component {...pageProps} />;
+  return (
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
+  );
 };

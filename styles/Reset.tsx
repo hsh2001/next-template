@@ -1,3 +1,6 @@
+import { createGlobalStyle } from 'styled-components';
+
+export default createGlobalStyle`
 html,
 body,
 p {
@@ -14,3 +17,4 @@ iframe {
   width: 100%;
   display: block;
 }
+`;
