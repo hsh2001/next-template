@@ -1,5 +1,5 @@
-import '../styles/reset.scss';
 import Layout from '../components/Layout';
+import ResetCSS from '../styles/Reset';
 
 export default ({
   Component,
@@ -11,6 +11,7 @@ export default ({
   return (
     <Layout>
       <Component {...pageProps} />
+      <ResetCSS />
     </Layout>
   );
 };
