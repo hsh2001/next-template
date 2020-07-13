@@ -5,7 +5,7 @@ import Header from './Header';
 import Reset from '../styles/Reset';
 import store from '../redux/store';
 
-type LayoutProps = React.PropsWithChildren<{}>;
+type LayoutProps = React.PropsWithChildren<Record<string, unknown>>;
 
 const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps) => {
   return (
