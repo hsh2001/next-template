@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Footer from './Footer';
 import Header from './Header';
+import Reset from '../styles/Reset';
 
 type LayoutProps = React.PropsWithChildren<{}>;
 
@@ -11,6 +12,8 @@ const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps) => {
         <title>Hello NEXT!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
+      <Reset />
 
       <Header />
       <main>{children}</main>
