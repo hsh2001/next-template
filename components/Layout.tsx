@@ -1,13 +1,15 @@
 import Head from 'next/head';
+import { Provider as ReduxProvider } from 'react-redux';
 import Footer from './Footer';
 import Header from './Header';
 import Reset from '../styles/Reset';
+import store from '../redux/store';
 
 type LayoutProps = React.PropsWithChildren<{}>;
 
 const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps) => {
   return (
-    <>
+    <ReduxProvider store={store}>
       <Head>
         <title>Hello NEXT!</title>
         <link rel="icon" href="/favicon.ico" />
@@ -18,7 +20,7 @@ const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps) => {
       <Header />
       <main>{children}</main>
       <Footer />
-    </>
+    </ReduxProvider>
   );
 };
 
