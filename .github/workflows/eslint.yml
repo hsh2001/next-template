@@ -2,17 +2,18 @@ name: Check ESLint
 
 on: [push, pull_request]
 jobs:
-  runs-on: ubuntu-latest
+  one:
+    runs-on: ubuntu-latest
 
-  steps:
-    - uses: actions/checkout@v1
-    - name: Init node env
-      uses: actions/setup-node@v1
-      with:
-        node-version: 12.x
-    - name: npm install
-      run: npm ci
-    - name: Check ESLint
-      run: npm run lint
-      env:
-        CI: true
+    steps:
+      - uses: actions/checkout@v1
+      - name: Init node env
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - name: npm install
+        run: npm ci
+      - name: Check ESLint
+        run: npm run lint
+        env:
+          CI: true
