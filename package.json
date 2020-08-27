@@ -15,7 +15,7 @@
     "@types/react": "16.9.48",
     "@types/react-redux": "7.1.9",
     "@types/styled-components": "5.1.2",
-    "next": "9.3.5",
+    "next": "9.5.2",
     "node-sass": "4.14.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
