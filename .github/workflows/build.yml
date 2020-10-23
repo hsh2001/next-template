@@ -1,6 +1,6 @@
 name: Build product
 
-on: [ push ]
+on: [push]
 jobs:
   one:
     runs-on: ubuntu-latest

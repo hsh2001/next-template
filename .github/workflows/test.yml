@@ -1,6 +1,6 @@
 name: Unit test
 
-on: [ push ]
+on: [push]
 jobs:
   one:
     runs-on: ubuntu-latest
