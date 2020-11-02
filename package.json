@@ -8,7 +8,7 @@
     "start": "next start",
     "export": "npm run build && next export",
     "lint": "eslint './**/*.{ts,tsx,js,jsx}'",
-    "test": "jest",
+    "test": "jest --coverage",
     "prettier": "prettier . --write"
   },
   "dependencies": {
