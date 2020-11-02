@@ -8,7 +8,7 @@
     "start": "next start",
     "export": "npm run build && next export",
     "lint": "eslint './**/*.{ts,tsx,js,jsx}'",
-    "test": "jest --coverage",
+    "test": "jest --coverage __test__",
     "qawolf": "qawolf test --headless --all-browsers # before you run this command, make sure your local web server is ready.",
     "qawolf:create": "qawolf create ; npm run prettier",
     "prettier": "prettier . --write"
