@@ -14,6 +14,8 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
+    "@material-ui/core": "4.11.0",
+    "@material-ui/icons": "4.9.1",
     "next": "10.0.1",
     "node-sass": "5.0.0",
     "react": "17.0.1",
