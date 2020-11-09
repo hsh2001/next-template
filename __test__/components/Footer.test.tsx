@@ -1,4 +1,5 @@
 import { shallow } from 'enzyme';
+
 import Footer from '../../components/Footer';
 
 describe('Render Footer component', () => {

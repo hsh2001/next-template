@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-undef
 module.exports = {
   config: 'node_modules/qawolf/ts-jest.config.json',
   rootDir: 'qawolf',

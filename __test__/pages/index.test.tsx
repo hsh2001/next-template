@@ -1,4 +1,5 @@
 import { shallow } from 'enzyme';
+
 import Index from '../../pages/index';
 
 describe('Render Index component', () => {

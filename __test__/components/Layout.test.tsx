@@ -1,4 +1,5 @@
 import { shallow } from 'enzyme';
+
 import Layout from '../../components/Layout';
 
 describe('Render Layout component', () => {

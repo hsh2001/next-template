@@ -1,9 +1,11 @@
 import Head from 'next/head';
 import { Provider as ReduxProvider } from 'react-redux';
+
+import store from '../redux/store';
+import Reset from '../styles/Reset';
+
 import Footer from './Footer';
 import Header from './Header';
-import Reset from '../styles/Reset';
-import store from '../redux/store';
 
 type LayoutProps = React.PropsWithChildren<Record<string, unknown>>;
 
