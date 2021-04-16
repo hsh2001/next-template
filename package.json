@@ -9,8 +9,6 @@
     "export": "npm run build && next export",
     "lint": "eslint './**/*.{ts,tsx,js,jsx}'",
     "test": "jest --coverage __test__",
-    "qawolf": "qawolf test --headless --all-browsers # before you run this command, make sure your local web server is ready.",
-    "qawolf:create": "qawolf create ; npm run prettier",
     "prettier": "prettier . --write"
   },
   "dependencies": {
@@ -50,7 +48,6 @@
     "jest": "26.6.3",
     "prettier": "2.2.0",
     "pretty-quick": "3.1.0",
-    "qawolf": "1.6.0",
     "ts-jest": "26.4.4",
     "typescript": "4.2.4"
   }
