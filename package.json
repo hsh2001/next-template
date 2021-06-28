@@ -13,13 +13,18 @@
     "prettier": "prettier . --write"
   },
   "dependencies": {
+    "axios": "0.21.1",
+    "delay": "5.0.0",
+    "moment": "2.29.1",
     "next": "10.2.3",
     "node-sass": "6.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-redux": "7.2.2",
+    "recoil": "0.3.1",
     "redux": "4.0.5",
-    "styled-components": "5.3.0"
+    "styled-components": "5.3.0",
+    "typeorm": "0.2.34"
   },
   "husky": {
     "hooks": {
@@ -27,6 +32,8 @@
     }
   },
   "devDependencies": {
+    "@types/axios": "0.14.0",
+    "@types/delay": "3.1.0",
     "@types/enzyme": "3.10.8",
     "@types/jest": "26.0.15",
     "@types/node": "14.17.4",
