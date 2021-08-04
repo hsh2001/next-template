@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-import Reset from '../styles/Reset';
+import Reset from '../styles/Reset'; 
 
 import Footer from './Footer';
 import Header from './Header';
