@@ -6,7 +6,7 @@ import Footer from './Footer';
 import Header from './Header';
 
 type LayoutProps = React.PropsWithChildren<Record<string, unknown>>;
-let a;
+
 const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps) => {
   return (
     <>
