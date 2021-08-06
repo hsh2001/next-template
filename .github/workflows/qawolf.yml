@@ -5,4 +5,9 @@ jobs:
     if: github.event.deployment_status.state == 'success'
     runs-on: ubuntu-latest
     steps:
+      - name: Init node env
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: npm i
       - run: URL="${{ github.event.deployment_status.target_url }}" npm run qawolf
