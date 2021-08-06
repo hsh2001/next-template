@@ -1,8 +1,8 @@
 name: QAWolf
-on: [deployment_status, push]
+on: [deployment_status]
 jobs:
   qawolf:
     if: github.event.deployment_status.state == 'success'
     runs-on: ubuntu-latest
     steps:
-      - run: ${{ github.event.deployment_status.target_url }}
+      - run: echo ${{ github.event.deployment_status.target_url }}
