@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: 12.x
       - run: npm i
-      - run: URL="${{ github.event.deployment_status.target_url }}" npm run qawolf
+      - run: npm run qawolf
