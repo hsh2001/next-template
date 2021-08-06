@@ -1,0 +1,17 @@
+name: QAWolf
+
+on: [deployment_status]
+jobs:
+  qawolf:
+    if: github.event.deployment_status.state == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Init node env
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
+      - run: npm i
+      - run: npm run qawolf
+        env:
+          URL: ${{ github.event.deployment_status.target_url }}
