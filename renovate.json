@@ -1,5 +1,5 @@
 {
   "labels": ["dependencies"],
   "extends": ["config:base"],
-  "baseBranches": ["deps"]
+  "baseBranches": ["update-dependencies"]
 }
