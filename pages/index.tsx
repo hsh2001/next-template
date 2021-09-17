@@ -2,7 +2,7 @@ import { NextPage } from 'next';
 
 import Layout from '../components/Layout';
 
-const NextPage: NextPage = () => {
+const Page: NextPage = () => {
   return (
     <Layout>
       <h1>hello world..!</h1>
@@ -11,4 +11,4 @@ const NextPage: NextPage = () => {
   );
 };
 
-export default NextPage;
+export default Page;
