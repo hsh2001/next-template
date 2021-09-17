@@ -1,10 +1,14 @@
+import { NextPage } from 'next';
+
 import Layout from '../components/Layout';
 
-export default (() => {
+const NextPage: NextPage = () => {
   return (
     <Layout>
       <h1>hello world..!</h1>
       <p>Content here</p>
     </Layout>
   );
-}) as React.FC;
+};
+
+export default NextPage;

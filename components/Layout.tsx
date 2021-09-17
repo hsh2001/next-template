@@ -5,9 +5,7 @@ import Reset from '../styles/Reset';
 import Footer from './Footer';
 import Header from './Header';
 
-type LayoutProps = React.PropsWithChildren<Record<string, unknown>>;
-
-const Layout: React.FC<LayoutProps> = ({ children }: LayoutProps) => {
+const Layout: React.FC = ({ children }) => {
   return (
     <>
       <Head>
