@@ -10,7 +10,7 @@
     "lint": "eslint './**/*.{ts,tsx,js,jsx}'",
     "test": "jest --coverage __test__",
     "qawolf": "jest --detectOpenHandles --forceExit qawolf",
-    "fix:packack-lock": "rm -r node_modules ; rm package-lock.json ; npm i --force",
+    "fix:package-lock": "rm -r node_modules ; rm package-lock.json ; npm i --force",
     "prettier": "prettier . --write"
   },
   "dependencies": {
