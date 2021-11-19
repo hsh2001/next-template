@@ -39,7 +39,7 @@
     "eslint-config-prettier": "6.15.0",
     "eslint-plugin-eslint-comments": "3.2.0",
     "eslint-plugin-import": "2.23.4",
-    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react": "7.27.1",
     "jest": "27.0.6",
     "playwright": "1.13.1",
     "prettier": "2.3.2",
