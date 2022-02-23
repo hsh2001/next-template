@@ -19,7 +19,7 @@
     "react-dom": "17.0.2",
     "recoil": "0.6.1",
     "styled-components": "5.3.0",
-    "swr": "1.0.1"
+    "swr": "1.2.2"
   },
   "devDependencies": {
     "@types/enzyme": "3.10.11",
